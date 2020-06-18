@@ -1,2 +1,4 @@
 venv/
 distrowatch
+key.py
+__pycache__/key.cpython-38.pyc
