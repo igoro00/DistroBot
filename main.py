@@ -3,7 +3,10 @@ from lxml import html, etree
 import discord
 import shutil
 from discord.ext import commands
-from key import token #create file key.py file with token='Ur token'
+try:
+    from key import token #create file key.py file with token='Ur token'
+except:
+    token = os.environ['token']
 import os.path
 import time
 from PIL import Image
