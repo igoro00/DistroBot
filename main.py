@@ -3,6 +3,8 @@ from lxml import html, etree
 import discord
 import shutil
 from discord.ext import commands
+import os
+import os.path
 try:
     from key import token #create file key.py file with token='Ur token'
 except:
